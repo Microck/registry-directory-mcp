@@ -1,38 +1,62 @@
-# registry directory mcp - opencode installation
+# installing registry-directory-mcp for opencode
 
-## auto install
+## prerequisites
 
-run in opencode:
+- [opencode.ai](https://opencode.ai) installed
+- node.js 18+ installed
+- git installed
 
-```
-/mcp add registry-directory node /path/to/registry-directory-mcp/dist/index.js
-```
+## installation steps
 
-## manual install
+### 1. clone and build
 
-1. clone and build:
+download the server code to your local machine:
+
 ```bash
-git clone https://github.com/microck/registry-directory-mcp.git
-cd registry-directory-mcp
+git clone https://github.com/Microck/registry-directory-mcp.git ~/registry-directory-mcp
+cd ~/registry-directory-mcp
 npm install
 npm run build
 ```
 
-2. add to `.opencode/mcp.json`:
+### 2. register the mcp server
+
+configure opencode to use this server by adding it to your `~/.config/opencode/opencode.json` file under the `"mcp"` key:
+
 ```json
-{
-  "mcpServers": {
-    "registry-directory": {
-      "command": "node",
-      "args": ["/absolute/path/to/registry-directory-mcp/dist/index.js"]
-    }
-  }
+"registry-directory-mcp": {
+  "type": "local",
+  "command": [
+    "node",
+    "ABSOLUTE_PATH_TO_REGISTRY_DIRECTORY_MCP/dist/index.js"
+  ],
+  "enabled": true
 }
 ```
 
-3. restart opencode.
+replace `ABSOLUTE_PATH_TO_REGISTRY_DIRECTORY_MCP` with the actual path where you cloned the repository.
 
-## verify
+
+### 3. restart opencode
+
+restart opencode to load the new configuration.
+
+## usage
+
+### check status
 
 ask opencode:
-> search for animation registries using registry-directory mcp
+> check registry-directory-mcp status
+
+### use tools
+
+you can now use commands like:
+> search_components with query: "animated marquee"
+
+## troubleshooting
+
+### server not found
+
+1. check if the file exists: `ls ~/registry-directory-mcp/dist/index.js`
+2. verify config: check `"registry-directory-mcp"` entry in `~/.config/opencode/opencode.json`
+3. ensure node is in your path.

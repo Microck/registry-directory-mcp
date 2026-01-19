@@ -1,35 +1,44 @@
-# registry directory mcp - codex/cursor installation
+# installing registry-directory-mcp for codex/cursor/windsurf
 
-## install
+## prerequisites
 
-1. clone and build:
+- node.js 18+ installed
+- git installed
+
+## installation steps
+
+### 1. clone and build
+
 ```bash
-git clone https://github.com/microck/registry-directory-mcp.git
-cd registry-directory-mcp
+git clone https://github.com/Microck/registry-directory-mcp.git ~/registry-directory-mcp
+cd ~/registry-directory-mcp
 npm install
 npm run build
 ```
 
-2. add to your mcp config (varies by client):
+### 2. configure your agent
 
-**claude desktop** (`claude_desktop_config.json`):
+add the following to your `~/.config/opencode/opencode.json` file under the `"mcp"` key:
+
 ```json
-{
-  "mcpServers": {
-    "registry-directory": {
-      "command": "node",
-      "args": ["/absolute/path/to/registry-directory-mcp/dist/index.js"]
-    }
-  }
+"registry-directory-mcp": {
+  "type": "local",
+  "command": [
+    "node",
+    "ABSOLUTE_PATH_TO_REGISTRY_DIRECTORY_MCP/dist/index.js"
+  ],
+  "enabled": true
 }
 ```
 
-**cursor** (settings > mcp):
-add a new server with command `node` and args pointing to the dist/index.js file.
+*note: replace `ABSOLUTE_PATH_TO_REGISTRY_DIRECTORY_MCP` with your actual absolute path to the cloned repository.*
 
-3. restart your client.
 
-## verify
+### 3. restart
+
+restart your ide or agent service.
+
+## usage
 
 ask your agent:
-> use registry-directory to search for button components
+> find me an animated button for my landing page using registry-directory-mcp
