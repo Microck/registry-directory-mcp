@@ -19,14 +19,27 @@ it indexes 40+ community registries (magic ui, aceternity, kokonut, etc.) and us
 - **smart fallback**: automatically probes registries for public indices and falls back to scraped data.
 - **ai ranking**: includes a `recommend_best_components` tool that filters by quality and requirement matching.
 
-## tools
+## usage
 
-- `search_registries`: search for registries by name, description, or tags (e.g., "animation").
+### tools
+
+- `search_registries`: search for registries by name, description, tags, or category.
 - `search_components`: search for specific components across all registries.
 - `get_registry_index`: fetch the official component list from a registry url.
 - `get_categories`: list all available component categories and tags.
 - `recommend_best_components`: ranks and suggests the best components for your specific need.
 - `get_component_details`: fetch full json/code for a component if available.
+
+### example
+
+```json
+{
+  "name": "recommend_best_components",
+  "arguments": {
+    "requirement": "need an animated marquee for a landing page hero"
+  }
+}
+```
 
 ## installation
 
@@ -36,6 +49,8 @@ cd registry-directory-mcp
 npm install
 npm run build
 ```
+
+## configuration
 
 add to your mcp client config (e.g., `claude_desktop_config.json` or `opencode`):
 
