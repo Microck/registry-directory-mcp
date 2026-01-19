@@ -6,7 +6,7 @@ import { fileURLToPath } from "url";
 
 // Get absolute path to the server script
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const serverPath = path.join(__dirname, "../dist/index.js");
+const serverPath = path.join(__dirname, "dist/index.js");
 
 console.log(`Starting server from: ${serverPath}`);
 

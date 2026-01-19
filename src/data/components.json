@@ -1,0 +1,110 @@
+[
+  {
+    "registry": "Magic UI",
+    "components": [
+      { "name": "marquee", "url": "https://magicui.design/docs/components/marquee", "tags": ["animation", "scrolling"] },
+      { "name": "terminal", "url": "https://magicui.design/docs/components/terminal", "tags": ["animation", "cli"] },
+      { "name": "hero-video-dialog", "url": "https://magicui.design/docs/components/hero-video-dialog", "tags": ["animation", "video", "dialog"] },
+      { "name": "bento-grid", "url": "https://magicui.design/docs/components/bento-grid", "tags": ["layout", "grid"] },
+      { "name": "animated-list", "url": "https://magicui.design/docs/components/animated-list", "tags": ["animation", "list"] },
+      { "name": "dock", "url": "https://magicui.design/docs/components/dock", "tags": ["animation", "navigation"] },
+      { "name": "globe", "url": "https://magicui.design/docs/components/globe", "tags": ["animation", "3d", "visuals"] },
+      { "name": "tweet-card", "url": "https://magicui.design/docs/components/tweet-card", "tags": ["social", "card"] },
+      { "name": "icon-cloud", "url": "https://magicui.design/docs/components/icon-cloud", "tags": ["animation", "3d", "icons"] },
+      { "name": "border-beam", "url": "https://magicui.design/docs/components/border-beam", "tags": ["animation", "border"] },
+      { "name": "shine-border", "url": "https://magicui.design/docs/components/shine-border", "tags": ["animation", "border"] },
+      { "name": "magic-card", "url": "https://magicui.design/docs/components/magic-card", "tags": ["animation", "card"] },
+      { "name": "meteors", "url": "https://magicui.design/docs/components/meteors", "tags": ["animation", "background"] },
+      { "name": "confetti", "url": "https://magicui.design/docs/components/confetti", "tags": ["animation", "visuals"] },
+      { "name": "particles", "url": "https://magicui.design/docs/components/particles", "tags": ["animation", "background"] },
+      { "name": "blur-fade", "url": "https://magicui.design/docs/components/blur-fade", "tags": ["animation", "fade"] },
+      { "name": "text-animate", "url": "https://magicui.design/docs/components/text-animate", "tags": ["animation", "text"] },
+      { "name": "typing-animation", "url": "https://magicui.design/docs/components/typing-animation", "tags": ["animation", "text"] },
+      { "name": "number-ticker", "url": "https://magicui.design/docs/components/number-ticker", "tags": ["animation", "number"] },
+      { "name": "animated-shiny-text", "url": "https://magicui.design/docs/components/animated-shiny-text", "tags": ["animation", "text"] },
+      { "name": "text-reveal", "url": "https://magicui.design/docs/components/text-reveal", "tags": ["animation", "text", "scroll"] },
+      { "name": "hyper-text", "url": "https://magicui.design/docs/components/hyper-text", "tags": ["animation", "text"] },
+      { "name": "word-rotate", "url": "https://magicui.design/docs/components/word-rotate", "tags": ["animation", "text"] },
+      { "name": "sparkles-text", "url": "https://magicui.design/docs/components/sparkles-text", "tags": ["animation", "text"] },
+      { "name": "morphing-text", "url": "https://magicui.design/docs/components/morphing-text", "tags": ["animation", "text"] },
+      { "name": "rainbow-button", "url": "https://magicui.design/docs/components/rainbow-button", "tags": ["animation", "button"] },
+      { "name": "shimmer-button", "url": "https://magicui.design/docs/components/shimmer-button", "tags": ["animation", "button"] },
+      { "name": "ripple-button", "url": "https://magicui.design/docs/components/ripple-button", "tags": ["animation", "button"] },
+      { "name": "flickering-grid", "url": "https://magicui.design/docs/components/flickering-grid", "tags": ["animation", "background"] },
+      { "name": "pulsating-button", "url": "https://magicui.design/docs/components/pulsating-button", "tags": ["animation", "button"] }
+    ]
+  },
+  {
+    "registry": "Aceternity UI",
+    "components": [
+      { "name": "dotted-glow-background", "url": "https://ui.aceternity.com/components/dotted-glow-background", "tags": ["animation", "background"] },
+      { "name": "sparkles", "url": "https://ui.aceternity.com/components/sparkles", "tags": ["animation", "background"] },
+      { "name": "background-gradient", "url": "https://ui.aceternity.com/components/background-gradient", "tags": ["animation", "background"] },
+      { "name": "wavy-background", "url": "https://ui.aceternity.com/components/wavy-background", "tags": ["animation", "background"] },
+      { "name": "background-beams", "url": "https://ui.aceternity.com/components/background-beams", "tags": ["animation", "background"] },
+      { "name": "aurora-background", "url": "https://ui.aceternity.com/components/aurora-background", "tags": ["animation", "background"] },
+      { "name": "meteors", "url": "https://ui.aceternity.com/components/meteors", "tags": ["animation", "background"] },
+      { "name": "vortex", "url": "https://ui.aceternity.com/components/vortex", "tags": ["animation", "background"] },
+      { "name": "spotlight", "url": "https://ui.aceternity.com/components/spotlight", "tags": ["animation", "background"] },
+      { "name": "tracing-beam", "url": "https://ui.aceternity.com/components/tracing-beam", "tags": ["animation", "beam"] },
+      { "name": "lamp-effect", "url": "https://ui.aceternity.com/components/lamp-effect", "tags": ["animation", "header"] },
+      { "name": "3d-card-effect", "url": "https://ui.aceternity.com/components/3d-card-effect", "tags": ["animation", "card", "3d"] },
+      { "name": "evervault-card", "url": "https://ui.aceternity.com/components/evervault-card", "tags": ["animation", "card"] },
+      { "name": "card-stack", "url": "https://ui.aceternity.com/components/card-stack", "tags": ["animation", "card"] },
+      { "name": "wobble-card", "url": "https://ui.aceternity.com/components/wobble-card", "tags": ["animation", "card"] },
+      { "name": "infinite-moving-cards", "url": "https://ui.aceternity.com/components/infinite-moving-cards", "tags": ["animation", "card"] },
+      { "name": "macbook-scroll", "url": "https://ui.aceternity.com/components/macbook-scroll", "tags": ["animation", "scroll"] },
+      { "name": "hero-parallax", "url": "https://ui.aceternity.com/components/hero-parallax", "tags": ["animation", "parallax"] },
+      { "name": "encrypted-text", "url": "https://ui.aceternity.com/components/encrypted-text", "tags": ["animation", "text"] },
+      { "name": "typewriter-effect", "url": "https://ui.aceternity.com/components/typewriter-effect", "tags": ["animation", "text"] },
+      { "name": "flip-words", "url": "https://ui.aceternity.com/components/flip-words", "tags": ["animation", "text"] },
+      { "name": "text-reveal-card", "url": "https://ui.aceternity.com/components/text-reveal-card", "tags": ["animation", "text"] },
+      { "name": "moving-border", "url": "https://ui.aceternity.com/components/moving-border", "tags": ["animation", "border"] },
+      { "name": "floating-navbar", "url": "https://ui.aceternity.com/components/floating-navbar", "tags": ["animation", "navbar"] },
+      { "name": "floating-dock", "url": "https://ui.aceternity.com/components/floating-dock", "tags": ["animation", "navbar"] },
+      { "name": "animated-testimonials", "url": "https://ui.aceternity.com/components/animated-testimonials", "tags": ["animation", "testimonials"] },
+      { "name": "bento-grid", "url": "https://ui.aceternity.com/components/bento-grid", "tags": ["layout", "grid"] }
+    ]
+  },
+  {
+    "registry": "Kokonut UI",
+    "components": [
+      { "name": "beams-background", "url": "https://kokonutui.com/docs/components/beams-background", "tags": ["animation", "background"] },
+      { "name": "background-paths", "url": "https://kokonutui.com/docs/components/background-paths", "tags": ["animation", "background"] },
+      { "name": "morphic-navbar", "url": "https://kokonutui.com/docs/components/morphic-navbar", "tags": ["animation", "navbar"] },
+      { "name": "mouse-effect-card", "url": "https://kokonutui.com/docs/components/mouse-effect-card", "tags": ["animation", "card"] },
+      { "name": "ai-prompt", "url": "https://kokonutui.com/docs/components/ai-prompt", "tags": ["ai", "input"] },
+      { "name": "matrix-text", "url": "https://kokonutui.com/docs/components/matrix-text", "tags": ["animation", "text"] },
+      { "name": "glitch-text", "url": "https://kokonutui.com/docs/components/glitch-text", "tags": ["animation", "text"] },
+      { "name": "shimmer-text", "url": "https://kokonutui.com/docs/components/shimmer-text", "tags": ["animation", "text"] },
+      { "name": "particle-button", "url": "https://kokonutui.com/docs/components/particle-button", "tags": ["animation", "button"] },
+      { "name": "v0-button", "url": "https://kokonutui.com/docs/components/v0-button", "tags": ["ui", "button"] }
+    ]
+  },
+  {
+    "registry": "Animate UI",
+    "components": [
+      { "name": "avatar-group", "url": "https://animate-ui.com/docs/components/animate/avatar-group", "tags": ["animation", "avatar"] },
+      { "name": "cursor", "url": "https://animate-ui.com/docs/components/animate/cursor", "tags": ["animation", "cursor"] },
+      { "name": "github-stars-wheel", "url": "https://animate-ui.com/docs/components/animate/github-stars-wheel", "tags": ["animation", "social"] },
+      { "name": "bubble-background", "url": "https://animate-ui.com/docs/components/backgrounds/bubble", "tags": ["animation", "background"] },
+      { "name": "fireworks-background", "url": "https://animate-ui.com/docs/components/backgrounds/fireworks", "tags": ["animation", "background"] },
+      { "name": "gravity-stars", "url": "https://animate-ui.com/docs/components/backgrounds/gravity-stars", "tags": ["animation", "background"] },
+      { "name": "morphing-text", "url": "https://animate-ui.com/docs/components/texts/morphing", "tags": ["animation", "text"] },
+      { "name": "rolling-text", "url": "https://animate-ui.com/docs/components/texts/rolling", "tags": ["animation", "text"] }
+    ]
+  },
+  {
+    "registry": "React Bits",
+    "components": [
+      { "name": "split-text", "url": "https://reactbits.dev/docs/text-animations/split-text", "tags": ["animation", "text"] },
+      { "name": "blur-text", "url": "https://reactbits.dev/docs/text-animations/blur-text", "tags": ["animation", "text"] },
+      { "name": "shiny-text", "url": "https://reactbits.dev/docs/text-animations/shiny-text", "tags": ["animation", "text"] },
+      { "name": "animated-gradient-text", "url": "https://reactbits.dev/docs/text-animations/animated-gradient-text", "tags": ["animation", "text"] },
+      { "name": "pixel-card", "url": "https://reactbits.dev/docs/components/pixel-card", "tags": ["animation", "card"] },
+      { "name": "tilted-card", "url": "https://reactbits.dev/docs/components/tilted-card", "tags": ["animation", "card"] },
+      { "name": "magnet", "url": "https://reactbits.dev/docs/animations/magnet", "tags": ["animation", "interactive"] },
+      { "name": "follow-cursor", "url": "https://reactbits.dev/docs/animations/follow-cursor", "tags": ["animation", "cursor"] }
+    ]
+  }
+]
