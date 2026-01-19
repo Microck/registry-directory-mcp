@@ -95,16 +95,23 @@
     ]
   },
   {
-    "registry": "React Bits",
+    "registry": "Coss UI",
     "components": [
-      { "name": "split-text", "url": "https://reactbits.dev/docs/text-animations/split-text", "tags": ["animation", "text"] },
-      { "name": "blur-text", "url": "https://reactbits.dev/docs/text-animations/blur-text", "tags": ["animation", "text"] },
-      { "name": "shiny-text", "url": "https://reactbits.dev/docs/text-animations/shiny-text", "tags": ["animation", "text"] },
-      { "name": "animated-gradient-text", "url": "https://reactbits.dev/docs/text-animations/animated-gradient-text", "tags": ["animation", "text"] },
-      { "name": "pixel-card", "url": "https://reactbits.dev/docs/components/pixel-card", "tags": ["animation", "card"] },
-      { "name": "tilted-card", "url": "https://reactbits.dev/docs/components/tilted-card", "tags": ["animation", "card"] },
-      { "name": "magnet", "url": "https://reactbits.dev/docs/animations/magnet", "tags": ["animation", "interactive"] },
-      { "name": "follow-cursor", "url": "https://reactbits.dev/docs/animations/follow-cursor", "tags": ["animation", "cursor"] }
+      { "name": "accordion", "url": "https://coss.com/ui/docs/components/accordion", "tags": ["ui"] },
+      { "name": "autocomplete", "url": "https://coss.com/ui/docs/components/autocomplete", "tags": ["form", "input"] },
+      { "name": "combobox", "url": "https://coss.com/ui/docs/components/combobox", "tags": ["form", "input"] },
+      { "name": "dialog", "url": "https://coss.com/ui/docs/components/dialog", "tags": ["overlay"] },
+      { "name": "meter", "url": "https://coss.com/ui/docs/components/meter", "tags": ["ui", "feedback"] }
+    ]
+  },
+  {
+    "registry": "Shadcn UI Blocks",
+    "components": [
+      { "name": "authentication", "url": "https://www.shadcnui-blocks.com/blocks/categories/authentication", "tags": ["block", "auth"] },
+      { "name": "blog", "url": "https://www.shadcnui-blocks.com/blocks/categories/blog", "tags": ["block", "content"] },
+      { "name": "pricing", "url": "https://www.shadcnui-blocks.com/blocks/categories/pricing", "tags": ["block", "marketing"] },
+      { "name": "team", "url": "https://www.shadcnui-blocks.com/blocks/categories/team", "tags": ["block", "marketing"] },
+      { "name": "hero", "url": "https://www.shadcnui-blocks.com/blocks/categories/hero", "tags": ["block", "marketing"] }
     ]
   }
 ]
