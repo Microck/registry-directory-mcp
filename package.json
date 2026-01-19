@@ -1,0 +1,25 @@
+{
+  "name": "registry-directory-mcp",
+  "version": "1.0.0",
+  "description": "mcp server for searching shadcn/ui registries and components",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').mkdirSync('dist/data',{recursive:true});require('fs').copyFileSync('src/data/registries.json','dist/data/registries.json')\"",
+    "start": "node dist/index.js",
+    "test": "node dist/test-server.js"
+  },
+  "keywords": ["mcp", "shadcn", "registry", "components", "ui"],
+  "author": "microck",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "axios": "^1.6.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}
