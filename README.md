@@ -7,10 +7,15 @@ it indexes 40+ community registries (magic ui, aceternity, kokonut, etc.) and us
 ## quickstart for ai agents
 
 **opencode**
-> fetch and follow instructions from https://raw.githubusercontent.com/Microck/registry-directory-mcp/master/.opencode/INSTALL.md
+```
+fetch and follow instructions from https://raw.githubusercontent.com/Microck/registry-directory-mcp/master/.opencode/INSTALL.md
+```
 
 **codex / cursor / other**
-> fetch and follow instructions from https://raw.githubusercontent.com/Microck/registry-directory-mcp/master/.codex/INSTALL.md
+
+```
+fetch and follow instructions from https://raw.githubusercontent.com/Microck/registry-directory-mcp/master/.codex/INSTALL.md
+```
 
 ## features
 
